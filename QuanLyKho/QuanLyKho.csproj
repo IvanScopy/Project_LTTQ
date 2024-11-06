@@ -87,6 +87,7 @@
     <Compile Include="Model\Customer.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\DataProvider.cs" />
     <Compile Include="Model\Input.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -152,6 +153,7 @@
     </Compile>
     <Compile Include="ViewModel\BaseViewModel.cs" />
     <Compile Include="ViewModel\ControlBarViewModel.cs" />
+    <Compile Include="ViewModel\LoginViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Page Include="CustomerWindow.xaml">
       <SubType>Designer</SubType>
