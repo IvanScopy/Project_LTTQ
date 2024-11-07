@@ -124,6 +124,7 @@
     <Compile Include="Model\sysdiagram.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\TonKho.cs" />
     <Compile Include="Model\Unit.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>

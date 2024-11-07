@@ -336,12 +336,12 @@
                             <Separator></Separator>
                         </Grid>
                         <Grid Grid.Row="2">
-                            <ListView>
+                            <ListView ItemsSource="{Binding TonKhoList}">
                                 <ListView.View>
                                     <GridView>
-                                        <GridViewColumn Header="STT"></GridViewColumn>
-                                        <GridViewColumn Header="Tên vật tư"></GridViewColumn>
-                                        <GridViewColumn Header="Số lượng tồn"></GridViewColumn>
+                                        <GridViewColumn Header="STT" DisplayMemberBinding="{Binding STT}" ></GridViewColumn>
+                                        <GridViewColumn Header="Tên vật tư" DisplayMemberBinding="{Binding Object.DisplayName}"></GridViewColumn>
+                                        <GridViewColumn Header="Số lượng tồn" DisplayMemberBinding="{Binding Count}"></GridViewColumn>
                                     </GridView>
                                 </ListView.View>
                             </ListView>
